@@ -16,13 +16,13 @@ preferred_number_of_private_subnets = 4
 
 environment = "DEV"
 
-ami-web = "ami-00f2af85ef643db0a"
+ami-web = "ami-044ceff24df1967b7"
 
-ami-bastion = "ami-0525408c95568f7f1"
+ami-bastion = "ami-0bacedc5dcc0c47ca"
 
-ami-nginx = "ami-088a232368f593d8f"
+ami-nginx = "ami-008aa2e84971d9a51"
 
-ami-sonar = "ami-06e79f984809215c9"
+ami-sonar = "ami-000f257784942708c"
 
 keypair = "EC2 Tutorial"
 
