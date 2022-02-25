@@ -14,7 +14,7 @@ preferred_number_of_public_subnets = 2
 
 preferred_number_of_private_subnets = 4
 
-environment = "dev"
+environment = "DEV"
 
 ami-web = "ami-00f2af85ef643db0a"
 
