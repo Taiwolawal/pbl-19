@@ -24,7 +24,7 @@ ami-nginx = "ami-008aa2e84971d9a51"
 
 ami-sonar = "ami-000f257784942708c"
 
-keypair = "EC2 Tutorial"
+keypair = "terraform-key"
 
 master-password = "password"
 
