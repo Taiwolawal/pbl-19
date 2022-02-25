@@ -6,9 +6,7 @@ resource "aws_lb" "ext-alb" {
   name            = var.name
   internal        = false
   security_groups = [var.public-sg]
-
-  subnets = [var.public-sbn-1,
-  var.public-sbn-2, ]
+  subnets = [var.public-sbn-1, var.public-sbn-2, ]
 
   tags = merge(
     var.tags,
@@ -150,7 +148,7 @@ resource "aws_lb_listener_rule" "tooling-listener" {
 
   condition {
     host_header {
-      values = ["tooling.david.toolingabby.com"]
+      values = ["tooling.projectaws.xyz"]
     }
   }
 }

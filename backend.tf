@@ -13,7 +13,7 @@ terraform {
     organization = "learn-terraform-now"
 
     workspaces {
-      name = "terraform-aws-pbl-19"
+      name = "pbl-19"
     }
   }
 }
