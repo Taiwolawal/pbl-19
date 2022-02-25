@@ -1,4 +1,4 @@
-region = "us-east-1"
+region = "us-east-2"
 
 vpc_cidr = "10.0.0.0/16"
 
@@ -16,24 +16,23 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami-web = "ami-0cfa8c14613ca075a"
+ami-web = "ami-00f2af85ef643db0a"
 
-ami-bastion = "ami-0463972c5b1966d78"
+ami-bastion = "ami-0525408c95568f7f1"
 
-ami-nginx = "ami-013cd16037f68ad76"
+ami-nginx = "ami-088a232368f593d8f"
 
-ami-sonar = "ami-05828bd2afbc2c038"
+ami-sonar = "ami-06e79f984809215c9"
 
-keypair = "devops"
+keypair = "EC2 Tutorial"
 
-master-password = "devopspblproject"
+master-password = "password"
 
-master-username = "david"
+master-username = "taiwo"
 
-account_no = "696742900004"
+account_no = "918670967067"
 
 tags = {
-  Owner-Email     = "infradev-segun@darey.io"
-  Managed-By      = "Terraform"
-  Billing-Account = "696742900004"
+  Owner-Email = "taiwolawal360@gmail.com"
+  Managed-By  = "Terraform"
 }
